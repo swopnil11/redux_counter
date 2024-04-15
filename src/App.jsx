@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <h1>Counter</h1>
+      <h1>Counter:</h1>
       <button onClick={() => dispatch(removeCounter())}>-</button>
       <h2 style={{display: "inline-block"}}>{count}</h2>
       <button onClick={() => dispatch(addCounter())}>+</button>
